@@ -1,14 +1,4 @@
-:root.theme_light {
+.page.theme_light {
   --accent-color: #ff8dcb;
   --header-color: #FFC2E6;
 }
-.page.theme_light {
-
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #ff8dcb;
-    --header-color: #FFC2E6;
-  }
- }
