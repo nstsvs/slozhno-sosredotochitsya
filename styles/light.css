@@ -1,4 +1,33 @@
 .page.theme_light {
+  --nav-text-color: #353430;
   --accent-color: #ff8dcb;
+  --border-color: #353430;
+  --border-color-hover: rgba(50, 49, 45, 0.40);
   --header-color: #FFC2E6;
+  --background-image: url('../images/cover-image-light.png');
+  --bg-color: #FFF1F7;
+  --text-color: #353430;
+  --text-color-secondary: #353430;
+}
+
+.page.theme_light .header__req {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  .page.theme_light {
+    --nav-text-color: #353430;
+    --accent-color: #ff8dcb;
+    --border-color: #353430;
+    --border-color-hover: rgba(50, 49, 45, 0.40);
+    --header-color: #FFC2E6;
+    --background-image: url('../images/cover-image-light.png');
+    --bg-color: #FFF1F7;
+    --text-color: #353430;
+    --text-color-secondary: #353430;
+  }
+
+  .page.theme_light .header__req {
+    display: none;
+  }
 }
