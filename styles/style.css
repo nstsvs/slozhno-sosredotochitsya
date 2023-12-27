@@ -203,6 +203,7 @@
 }
 
 .footer {
+  margin-block-start: 40px;
   position: relative;
   display: grid;
   align-items: center;
@@ -303,6 +304,10 @@
   }
   .street {
     grid-area: street;
+  }
+
+  .footer {
+    margin-block-start: 60px;
   }
 }
 
