@@ -22,7 +22,7 @@
   right: 18px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 10px;  
   color: var(--nav-text-color);
   font-family: inherit;
   font-weight: inherit;
