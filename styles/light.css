@@ -28,7 +28,7 @@
     --text-color-secondary: #353430;
   }
 
-  .page.theme_light .header__req {
+  .header__rec {
     display: none;
   }
 }
