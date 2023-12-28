@@ -11,12 +11,12 @@
   --text-color-secondary: #353430;
 }
 
-.page.theme_light .header__req {
+.page.theme_light .header__rec {
   display: none;
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme_light {
+  :root {
     --nav-text-color: #353430;
     --accent-color: #ff8dcb;
     --border-color: #353430;
@@ -28,7 +28,7 @@
     --text-color-secondary: #353430;
   }
 
-  .page.theme_light .header__req {
+  .header__rec {
     display: none;
   }
 }

@@ -6,7 +6,7 @@
 
 body {
   margin: 0 auto;
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
   font-weight: 400;
   min-inline-size: 375px;
