@@ -11,3 +11,7 @@
   --text-color: #000028;
   --text-color-secondary: #F1B2CE;
 }
+
+.page.theme_dark .header__rec {
+  display: flex;
+}

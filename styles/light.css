@@ -32,8 +32,4 @@
   .header__rec {
     display: none;
   }
-
-  .page.theme_auto .header__rec {
-    display: none;
-  }
 }
